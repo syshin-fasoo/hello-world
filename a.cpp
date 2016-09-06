@@ -2,14 +2,18 @@
 
 #include <stdio.h>
 
+int Sum(int a, int b)
+{
+  return a + b;
+}
+
 int main(int argc, wchar_t** argv)
 {
   int a = 1;
   
   int b = 2;
   
-  int sum = a + c;
-  
-  printf("sum = %d", sum);
-  
+  printf("sum = %d", Sum(a,b));
+
+  return 0;
 }
