@@ -13,8 +13,7 @@ int main(int argc, wchar_t** argv)
   
   int b = 2;
   
-  int sum = a + c;
-  
   printf("sum = %d", Sum(a,b));
 
+  return 0;
 }
