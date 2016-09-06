@@ -1,3 +1,5 @@
+// I like you to look at below code and check my code convension.
+
 #include <stdio.h>
 
 int main(int argc, wchar_t** argv)
@@ -9,4 +11,5 @@ int main(int argc, wchar_t** argv)
   int sum = a + c;
   
   printf("sum = %d", sum);
+  
 }
